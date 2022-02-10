@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NFT Market
 
-## Getting Started
+A Web3 NFT marketplace with minting for pictures. An end-to-end build.
 
-First, run the development server:
+Based on a tutorial by [Nader Dabit](https://www.youtube.com/watch?v=GKJBEEXUha0)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Verified on Polygon Mumbai testnet
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech used:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Ganache
+- Polygon
+- Solidity
+- Hardhat
+- ethers.js
+- IPFS
+- React
+- Next.js
+- tailwind.css
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Some changes I made:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- version 17 of node.js didn't work, used 16.13.2
+- Used Web3.Storage for IPFS instead of Infura
+- Used Alchemy instead of Infura
+- added some comments
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+As always, huge thanks to all the giants upon whose shoulders I've built my works!

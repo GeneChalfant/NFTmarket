@@ -32,3 +32,18 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+
+# App secrets
+.secret
+next.config.js
+market.config.js

@@ -1,3 +1,9 @@
 module.exports = {
   reactStrictMode: true,
+  env: {
+    W3S_KEY:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDE2RjdBYWM3OTQ0ODBmNzIzNmZGNkMwMzY0OTAzYjRiRTQ0NDY2NjYiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NDQ0NDE3MjM2MDksIm5hbWUiOiJORlQtTWFya2V0In0.PgeDsQXJKkbnKqwS5W6hUMhqxxdudItYdJo-qF2idSs',
+
+    ALCHEMY_MUMBAI_KEY: 'JPL9FP6hDz5YZ6TRo9cP0MKZwcsQq1wB',
+  },
 }
