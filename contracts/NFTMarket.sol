@@ -13,8 +13,9 @@ contract NFTMarket is ReentrancyGuard {
 
     address payable owner;
 
-    // this is the commission/fee for using this marketplace
-    uint256 listingPrice = 0.025 ether;         // actually will be MATIC, so today this is 5 cents
+    // this is the fee for using this marketplace
+    // actually will be using MATIC, so today (Jan 2022) this is about 5 cents
+    uint256 listingPrice = 0.025 ether;
 
     // Set owner/deployer of this contract. They will be paid commissions.
     constructor () {

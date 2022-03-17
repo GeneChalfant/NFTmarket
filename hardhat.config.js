@@ -1,9 +1,9 @@
-require('@nomiclabs/hardhat-waffle')
-const { defaultAccounts } = require('ethereum-waffle')
-const fs = require('fs')
-const privateKey = fs.readFileSync('.secret').toString()
-const mumbaiId = 'JPL9FP6hDz5YZ6TRo9cP0MKZwcsQq1wB'
-const mainnetId = 'EwNM9b6mlCD4RugYsizPU6f_y5_7qFWI'
+require("@nomiclabs/hardhat-waffle")
+const { defaultAccounts } = require("ethereum-waffle")
+const fs = require("fs")
+const privateKey = fs.readFileSync(".secret").toString()
+const mumbaiId = "123"
+const mainnetId = "123"
 
 module.exports = {
   networks: {
@@ -15,9 +15,9 @@ module.exports = {
       accounts: [privateKey],
     },
     mainnet: {
-      url: 'https://polygon-mainnet.g.alchemy.com/v2/${mainnetId}',
+      url: "https://polygon-mainnet.g.alchemy.com/v2/${mainnetId}",
       accounts: [privateKey],
     },
   },
-  solidity: '0.8.4',
+  solidity: "0.8.4",
 }
