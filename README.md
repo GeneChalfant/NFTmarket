@@ -2,7 +2,8 @@
 
 Complete (end-to-end) demo Web3 NFT marketplace including picture-asset minting.
 
-Verified on Polygon Mumbai and Ethereum Ropsten testnets. Deployed to Polygon mainnet.
+Deployed on Polygon Mumbai testnet:
+https://mumbai.polygonscan.com/address/0xD87f0649beDEBD1957A63bf569b707d89c567A86
 
 Tooling:
 
