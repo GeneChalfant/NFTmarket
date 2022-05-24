@@ -2,7 +2,7 @@
 
 Complete (end-to-end) demo Web3 NFT marketplace including picture-asset minting.
 
-Verified on Polygon Mumbai testnet
+Verified on Polygon Mumbai and Ethereum Ropsten testnets. Deployed to Polygon mainnet.
 
 Tooling:
 
