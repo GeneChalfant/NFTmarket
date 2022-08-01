@@ -22,7 +22,7 @@ Tooling:
 - yarn package manager
 - Pinned IPFS hosted by Web3.Storage
 
-Based on a tutorial by Nader Dabit
+Inspired by a tutorial by Nader Dabit
 
 Changelog:
 
